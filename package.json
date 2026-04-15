@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --use-system-ca index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
